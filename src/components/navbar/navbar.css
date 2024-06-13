@@ -1,0 +1,34 @@
+.navbar-container{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid rgba(99, 92, 92, 0.1);
+}
+.navbar-container p{
+    font-size: 25px;
+
+}
+.navbar-container .nav-item-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar-container .nav-item-container span{
+    padding: 0 20px;
+}
+.icon-container .register-btn{
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: crimson;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
