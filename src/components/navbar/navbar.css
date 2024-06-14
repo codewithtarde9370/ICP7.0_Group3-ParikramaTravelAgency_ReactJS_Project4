@@ -1,5 +1,4 @@
 .navbar-container{
-    position: fixed;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -9,22 +8,29 @@
     border-bottom: 1px solid rgba(99, 92, 92, 0.1);
 }
 .navbar-container p{
+    color: #0C1844;
     font-size: 25px;
+    margin-left: 20px;
 
 }
 .navbar-container .nav-item-container{
+    color: #0C1844;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-.navbar-container .nav-item-container span{
+.navbar-container .nav-item-container .nav-item{
+    text-decoration: none;
     padding: 0 20px;
+}
+.nav-item:link{
+    color: #0C1844;
 }
 .icon-container .register-btn{
     color: #fff;
     padding: 10px 20px;
     margin: 0 10px;
-    background-color: crimson;
+    background-color: #C80036;
     border: none;
     border-radius: 5px;
     -webkit-border-radius: 5px;

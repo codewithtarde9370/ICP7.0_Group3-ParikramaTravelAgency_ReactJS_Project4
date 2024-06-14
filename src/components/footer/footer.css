@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 300px;
+    width: 100%;
+    margin: 20px 0;
+    border-top: 1px solid rgba(99, 92, 92, 0.1);
+
+}
+.footer-grid img{
+    height: 40px;
+    padding: 10px 5px;
+}
+li{
+    list-style: none;
+    margin-left: -35px;
+}
