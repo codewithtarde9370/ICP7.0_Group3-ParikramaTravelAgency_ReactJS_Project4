@@ -1,15 +1,16 @@
 import React from 'react';
-import Navbar from '../../components/navbar/navbar';
-import Footer from '../../components/footer/footer';
-import './stays.css';
-import SearchCard from './../../components/search-card/search';
+import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer';
+import './Stays.css';
+import OfferCard from '../../components/travelOfferCards/offerCard';
 
 function Stays() {
   return (
     <>
       <Navbar className="navbar" />
-      <div className='background'>
-        <SearchCard />
+      <div className='background'></div>
+      <div className='offer-card-container'>
+        <OfferCard />
       </div>
       <Footer className="footer" />
     </>
