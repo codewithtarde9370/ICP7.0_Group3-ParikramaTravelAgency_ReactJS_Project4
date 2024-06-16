@@ -1,3 +1,4 @@
+/* Navbar container */
 .navbar-container {
     display: flex;
     flex-direction: row;
@@ -9,18 +10,21 @@
     padding: 0 20px;
   }
   
+  /* Navbar title */
   .navbar-container p {
     color: #0C1844;
     font-size: 25px;
     margin: 0;
   }
   
+  /* Navbar toggle button */
   .nav-toggle {
     display: none;
     font-size: 25px;
     cursor: pointer;
   }
   
+  /* Navbar item container */
   .nav-item-container {
     color: #0C1844;
     display: flex;
@@ -28,6 +32,7 @@
     align-items: center;
   }
   
+  /* Navbar items */
   .nav-item {
     text-decoration: none;
     padding: 0 20px;
@@ -37,6 +42,7 @@
     color: #0C1844;
   }
   
+  /* Register button */
   .icon-container .register-btn {
     color: #fff;
     padding: 10px 20px;
@@ -44,6 +50,7 @@
     background-color: #C80036;
     border: none;
     border-radius: 5px;
+    white-space: nowrap; /* Prevent text wrapping */
   }
   
   /* Responsive adjustments */
@@ -81,8 +88,10 @@
     }
   
     .icon-container .register-btn {
-      width: 100%;
-      margin: 10px 0;
+      width: calc(100% - 20px); /* Full width minus padding */
+      margin: 10px;
+      padding: 10px 0; /* Adjust padding for better fit on small screens */
+      text-align: center; /* Center align text */
     }
   }
   
